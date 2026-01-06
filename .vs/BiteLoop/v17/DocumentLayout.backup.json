@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Projects\\Code\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|d:\\projects\\code\\code\\biteloop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|solutionrelative:biteloop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|d:\\projects\\code\\code\\biteloop\\adminpanel\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|solutionrelative:biteloop\\adminpanel\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|d:\\projects\\code\\code\\biteloop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|solutionrelative:biteloop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39947171-2868-45D2-9609-EC1BD4000DD9}|D:\\Projects\\Code\\Code\\BiteLoop|d:\\projects\\code\\code\\biteloop\\adminpanel\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 470,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "D:\\Projects\\Code\\Code\\BiteLoop\\AdminPanel\\Dashboard.aspx",
               "RelativeDocumentMoniker": "BiteLoop\\AdminPanel\\Dashboard.aspx",
@@ -98,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Projects\\Code\\Code\\BiteLoop\\Web.config",
               "RelativeDocumentMoniker": "BiteLoop\\Web.config",
               "ToolTip": "D:\\Projects\\Code\\Code\\BiteLoop\\Web.config",
               "RelativeToolTip": "BiteLoop\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-01-06T05:29:45.579Z",
               "EditorCaption": ""
