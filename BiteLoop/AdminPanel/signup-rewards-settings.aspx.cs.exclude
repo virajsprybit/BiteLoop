@@ -1,0 +1,131 @@
+﻿using BAL;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Utility;
+
+public partial class AdminPanel_Signup_Rewards : AdminAuthentication
+{
+
+
+    #region Page Events
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Request.Form.Keys.Count > 0)
+        { 
+            SaveInfo(); 
+        }
+        else
+        {
+            BindControls();
+        }
+
+    }
+    #endregion
+
+    #region Bind Controls
+    private void BindControls()
+    {
+        //if (ID > 0)
+        //{
+        //    DataTable dt = new DataTable();
+        //    objTestimonialsBAL.ID = ID;
+        //    dt = objTestimonialsBAL.GetTestimonialsByID();
+        //    if (dt.Rows.Count > 0)
+        //    {
+        //        txtClientName.Value = Convert.ToString(dt.Rows[0]["ClientName"]);
+        //        txtTitle.Value = Convert.ToString(dt.Rows[0]["Title"]);
+        //        txtDescription.Value = Convert.ToString(dt.Rows[0]["Description"]);
+        //        ddlRating.Value = Convert.ToString(dt.Rows[0]["StarRating"]);
+        //        if (!string.IsNullOrEmpty(Convert.ToString(dt.Rows[0]["ImageName"])))
+        //        {
+        //            hdnImage.Value = Convert.ToString(dt.Rows[0]["ImageName"]);
+        //            imgImage.Src = Config.VirtualDir + "thumb.aspx?path=" + Config.CMSFiles + Convert.ToString(dt.Rows[0]["ImageName"]) + "&width=152&height=112";
+        //            imgImage.Visible = true;
+        //        }
+        //        else
+        //        {
+        //            imgImage.Visible = false;
+        //            hdnImage.Value = string.Empty;
+        //        }
+        //    }
+        //}
+    }
+    #endregion
+
+    #region Save Information
+    private void SaveInfo()
+    {
+       
+        //objTestimonialsBAL.ID = ID;
+        //objTestimonialsBAL.Title = Convert.ToString(Request[txtTitle.UniqueID]).Trim();
+        //objTestimonialsBAL.ClientName = Convert.ToString(Request[txtClientName.UniqueID]).Trim();
+        //objTestimonialsBAL.StarRating = Convert.ToInt32(Request[ddlRating.UniqueID]);
+        //objTestimonialsBAL.Description = Convert.ToString(Request[txtDescription.UniqueID]).Trim();
+        //int intResult = objTestimonialsBAL.Save();
+
+        //switch (intResult)
+        //{
+        //    case -1:
+
+        //        Response.Write(Common.ShowMessage("Title already exists. So please try another Title.", "alert-message error", divMsg.ClientID));
+        //        Response.Write(Common.ScriptStartTag + "parent.ScrollTop();" + Common.ScriptEndTag);
+        //        break;
+        //    default:
+        //        Response.Write(Common.ShowMessage("Testimonial has been saved successfully.", "alert-message success", divMsg.ClientID));
+        //        Response.Write(Common.ScriptStartTag + "parent.ScrollTop();" + Common.ScriptEndTag);
+        //        Response.Write(Common.ScriptStartTag + "parent.window.setTimeout(\"parent.window.location.href = 'signup-rewards-settings.aspx'\",1000);" + Common.ScriptEndTag);
+        //        break;
+        //}
+        //Response.End();
+
+    }
+    #endregion
+
+    #region General
+    /*
+    private void ShowMessage(string strMessage, string strMessageType, string divMessage)
+    {
+        Response.Write("<link href='" + Config.VirtualDir + "style/style.css' rel='Stylesheet' type='text/css' />");
+        Response.Write("<script type='text/javascript' language='javascript' src='" + Config.VirtualDir + "js/jquery-1.4.2.min.js'></script>");
+        Response.Write("<script type='text/javascript' language='javascript' src='" + Config.VirtualDir + "js/general.js'></script>");
+        Response.Write("<script type='text/javascript'>var virtualDir = '" + Config.VirtualDir + "';</script>");
+        Response.Write("$(document.ready(function {");
+        Response.Write(Common.ScriptStartTag + "parent.$('#" + divMessage + "').show();" + Common.ScriptEndTag);
+        Response.Write(Common.ScriptStartTag + "parent.$('#" + divMessage + "').html('" + strMessage + "');" + Common.ScriptEndTag);
+        Response.Write(Common.ScriptStartTag + "parent.$('#" + divMessage + "').attr('class', '" + strMessageType + "');" + Common.ScriptEndTag);
+        Response.Write("});");
+    }*/
+
+    private void DeleteTestimonialsFile(string strImage)
+    {
+        if (!string.IsNullOrEmpty(strImage))
+        {
+            if (Common.IsFileExist(Config.CMSFiles, strImage))
+            {
+                Common.FileDelete(Config.CMSFiles, strImage);
+            }
+        }
+    }
+    public static bool IsImage(string strImageName)
+    {
+        bool blnReturnValue = false;
+        switch (System.IO.Path.GetExtension(strImageName).ToLower())
+        {
+            case ".jpg":
+            case ".jpeg":
+            case ".gif":
+            case ".png":
+            case ".bmp":
+                blnReturnValue = true;
+                break;
+        }
+        return blnReturnValue;
+    }
+
+    #endregion
+}

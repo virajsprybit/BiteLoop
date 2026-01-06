@@ -1,0 +1,394 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="AdminPanel_Admin" %>
+
+<!DOCTYPE html>
+<%@ Import Namespace="Utility" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= new BAL.GeneralSettings().getConfigValue("WebsiteName").ToString()%></title>
+    <script src="assets/js/jquery.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="<%=Config.VirtualDir + "adminpanel/images/favicon.ico"%>" rel="icon" type="image/png" />
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
+    <!-- Boostrap Theme -->
+    <link rel="stylesheet" href="css/skin.css" />
+    <link rel="stylesheet" href="css/boostrap-overrides.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <!-- Add custom CSS here -->
+    <link rel="stylesheet" href="assets/css/main-nav-horizontal.css" />
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/css/ezmark.css" />
+    <link rel="stylesheet" href="assets/css/animate-custom.css" />
+    <link rel="stylesheet" href="css/paging.css" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="CPHHeader" runat="server" />
+    <style>
+        .active {
+            color: #fff !important;
+        }
+
+        #page-content-wrapper {
+            height: auto !important;
+        }
+
+        #DivRender .dataTable th {
+            padding-left: 8px !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for chat panel push-->
+    <div id="container">
+        <!-- Top Navbar  -->
+        <div id="top-navbar" class="navbar navbar-static-top navbar-default navbar-inverse add-shadow" role="navigation" style="background-color: #f9f9f9">
+            <div class="navbar-header text-center">
+                <button type="button" class="navbar-toggle border-left-med no-radius" data-toggle="collapse" data-target="#horizontal-nav">
+                    <div class="bars">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                </button>
+                <button type="button" class="navbar-toggle border-left-med no-radius" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="avatar">
+                        <img src="img/avatar.jpg" alt="" class="img-circle" /></span>
+                </button>
+                <!-- logo -->
+                <div class="navbar-brand" style="float: left; margin-left: 26px;">
+                    <a href="dashboard.aspx">
+                        <img src="images/BiteLooplogo.png" alt="logo" style="width: 185px;" /></a>
+                </div>
+                <!-- / logo -->
+            </div>
+            <!-- user -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse" style="background-color: #fff">
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="avatar dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #000">
+                            <img src="img/avatar.jpg" alt="Admin" id="imgAvtar" runat="server" class="img-circle1 nav-avatar" style="margin-right: 9px;" />Welcome <%=UserName %>!<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <%--<li><a id="EditProfile" onclick="window.location='edit-profile.aspx?id=<%=intAdminID %>';" href="javascript:;"><i class="icon-user"></i>&nbsp;&nbsp;&nbsp;Edit Profile</a></li>--%>
+                            <li><a href="javascript:;" class="external" data-toggle="modal" data-target="#myModalChangePassword"><i class="icon-key"></i>&nbsp;&nbsp;Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a id="logout" onclick="if(confirm('Are you sure you want to logout?')){window.location='login.aspx?type=logout';}" href="javascript:;"><i class="icon-power-off"></i>&nbsp;&nbsp;Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- / nav-collapse -->
+        </div>
+        <!-- / top Navbar -->
+
+        <!-- Primary navigation -->
+        <div id="horizontal-nav" class="navbar collapse navbar-collapse navbar-inverse gray-darker-bg">
+            <ul class="navbar-nav">
+                <li class="dropdown">
+                    <a href="Dashboard.aspx" class="adminmenu" rel="1">
+                        <span class="icon icon-home"></span>
+                        <span class="hor-menu-item-text">Dashboard</span>
+                    </a>
+                    <asp:Repeater ID="rptStates" runat="server" Visible="false">
+                        <HeaderTemplate>
+                            <ul class="dropdown-menu">
+                                 <li><a rel="0" class="adminmenu" title="All" href="Dashboard.aspx">All</a></li>
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li><a rel="0" class="adminmenu" title="<%#Eval("StateCode") %>" href="Dashboard.aspx?state=<%#Eval("StateCode") %>"><%#Eval("StateCode") %></a></li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </li>
+                <asp:Repeater ID="rptModules" runat="server">
+                    <HeaderTemplate>
+                        <li class="dropdown">
+                            <a rel="1" data-toggle="dropdown" class="dropdown-toggle adminmenu" href="#">
+                                <span class="icon icon-table"></span><span class="hor-menu-item-text">Modules<b class="caret"></b></span></a>
+                            <ul class="dropdown-menu">
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <%# (
+                            Eval("PageName").ToString() == "Food Items" ||
+                            Eval("PageName").ToString() == "Notification Group" ||
+                            Eval("PageName").ToString() == "User Favourites" ||
+                            Eval("PageName").ToString() == "Restaurant Types"                            
+                        ) ? "" : ("<li><a rel='0' class='adminmenu' title='" + Eval("PageName") + "' href='" + Eval("PageURL") + "'>" + Eval("PageName") + "</a></li>") %>
+                    </ItemTemplate>
+
+                    <%--<ItemTemplate>
+                        <li><a rel="0" class="adminmenu" title="<%#Eval("PageName") %>" href="<%#Eval("PageURL") %>"><%#Eval("PageName") %></a></li>
+                    </ItemTemplate>--%>
+                    <FooterTemplate>
+                        </ul>   </li>
+                    </FooterTemplate>
+                </asp:Repeater>
+
+                <%if (UserAccess == 1)
+                    { %>
+
+                <asp:Repeater ID="rptUsers" runat="server">
+                    <ItemTemplate>
+                        <li class="dropdown" style="width: 8%">
+                            <a rel="1" class="adminmenu" href="<%#Eval("PageURL") %>">
+                                <span class="icon icon-user"></span><span class="hor-menu-item-text"><%#Eval("PageName") %></span></a>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
+
+                <%} %>
+
+                <asp:Repeater ID="rptIssues" runat="server">
+                    <ItemTemplate>
+                        <li class="dropdown" style="width: 8%">
+                            <a rel="1" class="adminmenu" href="<%#Eval("PageURL") %>">
+                                <span class="icon icon-user"></span><span class="hor-menu-item-text"><%#Eval("PageName") %></span></a>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
+
+
+                <%if (ReportAccess == 1)
+                    { %>
+                <li class="dropdown">
+                    <a rel="1" data-toggle="dropdown" class="dropdown-toggle adminmenu" href="#">
+                        <span class="icon icon-book"></span><span class="hor-menu-item-text">Reports<b class="caret"></b></span></a>
+                    <asp:Repeater ID="rptReports" runat="server">
+                        <HeaderTemplate>
+                            <ul class="dropdown-menu">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li><a rel="0" class="adminmenu" title="<%#Eval("PageName") %>" href="<%#Eval("PageURL") %>"><%#Eval("PageName") %></a></li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>  
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </li>
+                <%} %>
+                <%if (EnquiryAccess == 1)
+                    { %>
+                <%--<li class="dropdown">
+                    <a rel="1" data-toggle="dropdown" class="dropdown-toggle adminmenu" href="#">
+                        <span class="icon icon-book"></span><span class="hor-menu-item-text">Enquiry<b class="caret"></b></span></a>
+                    <asp:Repeater ID="rptEnquiry" runat="server">
+                        <HeaderTemplate>
+                            <ul class="dropdown-menu">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li><a rel="0" class="adminmenu" title="<%#Eval("PageName") %>" href="<%#Eval("PageURL") %>"><%#Eval("PageName") %></a></li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>  
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </li>--%>
+                <%} %>
+
+                <%if (SettingsAccess == 1)
+                    { %>
+                <li class="dropdown">
+                    <a rel="1" data-toggle="dropdown" class="dropdown-toggle adminmenu" href="#">
+                        <span class="icon icon-book"></span><span class="hor-menu-item-text">Settings<b class="caret"></b></span></a>
+                    <asp:Repeater ID="rptSettings" runat="server">
+                        <HeaderTemplate>
+                            <ul class="dropdown-menu">
+                        </HeaderTemplate>
+                        <ItemTemplate>
+                            <li><a rel="0" class="adminmenu" title="<%#Eval("PageName") %>" href="<%#Eval("PageURL") %>"><%#Eval("PageName") %></a></li>
+                        </ItemTemplate>
+                        <FooterTemplate>
+                            </ul>  
+                        </FooterTemplate>
+                    </asp:Repeater>
+                </li>
+                <%} %>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <!-- Wrapper for content below nav bar -->
+        <div id="wrapper">
+            <!-- preloader -->
+            <div class='preloader-wrapper'>
+                <div class="preloader">
+                    <img src="img/preloader.png" alt='loading image' />
+                </div>
+            </div>
+            <!-- / preloader -->
+            <!-- Keep all page content within the page-content-wrapper -->
+            <div id="page-content-wrapper" class="stretch-full-height animated-med-delay">
+                <%--rotateInDownLeft--%>
+                <!-- page content header -->
+
+                <!-- / page content header -->
+                <asp:ContentPlaceHolder runat="server" ID="CPHContent"></asp:ContentPlaceHolder>
+            </div>
+            <!-- /page-content-wrapper -->
+        </div>
+        <!-- / wrapper for content below nav bar -->
+    </div>
+    <!-- end container for chat panel push-->
+    <div class="modal fade" id="myModalChangePassword" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" id="divContactUs" runat="server">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+                    <h3 class="modal-title">Change Password</h3>
+                </div>
+                <form id="frmUserChangePassword">
+                    <div id="divChangepassword" class="red" runat="server">
+                    </div>
+                    <div class="modal-body">
+                        <div class="panel-body well-lg">
+
+                            <div class="form-group">
+                                <label for="tbxOldPassword">Current Password</label><span class="red">*</span>
+                                <input type="text" class="form-control" id="tbxOldPassword" name="tbxOldPassword" maxlength="25" />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxNewPassword">New Password</label><span class="red">*</span>
+                                <input type="text" class="form-control" id="tbxNewPassword" name="tbxNewPassword" maxlength="25" />
+                            </div>
+                            <div class="form-group">
+                                <label for="tbxConfPassword">Confirm Password</label><span class="red">*</span>
+                                <input type="text" class="form-control" id="tbxConfPassword" name="tbxConfPassword" maxlength="25" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-inverse" onclick="return AdminChangePassword();">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Theme Core -->
+
+    <script type="text/javascript" src="assets/js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui-1.10.4.custom.min.js"></script>
+    <!-- Preloader -->
+    <script>
+        $(window).load(function () { $('.preloader-wrapper').fadeOut(); });
+    </script>
+    <!-- Pushy JS -->
+    <%--<script src="assets/js/pushy.js"></script>--%>
+    <!-- EzMark -->
+    <script src="assets/js/jquery.ezmark.js"></script>
+    <script type="text/javascript">
+        $(function () { $('.custom-check input').ezMark(); });
+    </script>
+    <!-- Custom -->
+    <link href="css/loadingbox.css" rel="stylesheet" />
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/repeater.js"></script>
+    <%-- <script src="assets/js/JSMinified.js"></script>  --%>
+    <script src="assets/js/general.js"></script>
+    <script src="assets/js/loadingwindow.js"></script>
+    <script src="assets/js/common.js"></script>
+    <%--  <script src="assets/js/jquery.alerts.js"></script>--%>
+    <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/plugins/DataTables-1.9.4/support/dataTables.bootstrap.css" />
+    <asp:ContentPlaceHolder runat="server" ID="CPHFooter">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">
+        function ScrollOnTop() {
+            $(window).scrollTop(100);
+        }
+        var divChangepassword = '<%= divChangepassword.ClientID %>'
+        $(document).ready(function () {
+            var weburl = '<%=Utility.Config.WebSiteUrl %>';
+            weburl = weburl.toLowerCase();
+            var name = location.href.toLowerCase().replace(weburl, '');
+            var selected = false;
+            if (name != '') {
+                $('.adminmenu').each(function () {
+                    if (!selected) {
+                        if ($(this).attr('rel') == '1') { $('.adminmenu').removeClass('active'); $(this).addClass('active'); }
+                        if (jQuery.trim($(this).attr('href')).toLocaleLowerCase() == jQuery.trim(name).toLocaleLowerCase()) { selected = true; }
+                    }
+                });
+                if (!selected)
+                    $('.adminmenu').removeClass('active');
+            }
+        });
+
+        function AdminChangePassword() {
+            var err = DirValCtrl();
+
+            if (err.length == 0) {
+                if ($('#tbxNewPassword').val().length < 6 && $('#tbxConfPassword').val().length < 6)
+                    err = err + '<br/>- New and Confirm Password must be 6 characters long.';
+                else if ($('#tbxNewPassword').val().length < 6)
+                    err = err + '<br/>- New Password must be 6 characters long';
+                else if ($('#tbxConfPassword').val().length < 6)
+                    err = err + '<br/>- Confirm Password must be 6 characters long';
+                else if ($('#tbxNewPassword').val() != $('#tbxConfPassword').val())
+                    err = err + "<br/>- New password and Confirm password must be same.";
+            }
+
+            if (err != '') { DisplMsg(divChangepassword, '<b>Please correct the following errors</b>' + err, 'alert-message error'); return false; }
+
+            $.ajax({
+                url: 'login.aspx?type=userChangePassword',
+                type: 'POST',
+                data: $('#frmUserChangePassword').serialize(),
+                success: function (resp) {
+
+                    if (resp.substring(0, 1) == "1") {
+                        DisplMsg(divChangepassword, resp.substring(2, resp.toString().length), 'alert-message error');
+                    }
+                    else if (resp.substring(0, 1) == "2") {
+                        DisplMsg(divChangepassword, resp.substring(2, resp.toString().length), 'alert-message success');
+                        setTimeout('disablePopup();', '3000');
+                        // disablePopup();
+                    }
+                    $('#tbxOldPassword').val("");
+                    $('#tbxNewPassword').val("");
+                    $('#tbxConfPassword').val("");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+<%-- <ul class="navbar-nav">
+                <li><a href="Dashboard.aspx" class="adminmenu" rel="1"><span class="icon icon-home"></span><span class="hor-menu-item-text">Dashboard</span></a></li>
+                <%if (UserType == 1)
+                  { %>
+                <li class="dropdown">
+                    <a rel="1" data-toggle="dropdown" class="dropdown-toggle adminmenu" href="#">
+                        <span class="icon icon-table"></span><span class="hor-menu-item-text">Modules<b class="caret"></b></span></a>
+                    <ul class="dropdown-menu">
+					
+					<li><a rel="0" class="adminmenu" title="Sales Admin" href="sales-admin-list.aspx">Sales Admin</a></li>
+                        <li><a rel="0" class="adminmenu" title="CMS" href="cms-list.aspx">CMS</a></li>
+                        <li><a rel="0" class="adminmenu" title="Category" href="category-list.aspx">Category</a></li>
+                        <li><a rel="0" class="adminmenu" title="Food Items" href="fooditems-list.aspx">Food Items</a></li>
+                        <li><a rel="0" class="adminmenu" title="Profile Photo" href="profilephoto-list.aspx">Profile Photo</a></li>
+                        <li><a rel="0" class="adminmenu" title="Email Templates" href="Emailtemplate-List.aspx">Email Templates</a></li>
+                        <li><a rel="0" class="adminmenu" title="Vendors" href="vendor-list.aspx">Vendors</a></li>
+                    </ul>
+                </li>              
+                <li><a href="general-setting.aspx" class="adminmenu" rel="1"><span class="icon icon-gear"></span><span class="hor-menu-item-text">Settings</span></a></li>
+                <%} %>                
+            </ul>--%>

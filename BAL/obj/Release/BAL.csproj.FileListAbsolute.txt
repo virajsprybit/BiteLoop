@@ -1,0 +1,13 @@
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\BAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\BAL.pdb
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\DAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\PAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\Utility.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\DAL.pdb
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\PAL.pdb
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\bin\Release\Utility.pdb
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\obj\Release\BAL.csproj.AssemblyReference.cache
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\obj\Release\BAL.csproj.CoreCompileInputs.cache
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\obj\Release\BAL.csproj.Up2Date
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\obj\Release\BAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\BAL\obj\Release\BAL.pdb

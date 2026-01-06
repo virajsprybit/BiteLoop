@@ -1,0 +1,258 @@
+---------------------------------------------------------------------
+5: fJbnwxF9R5eGuCShborq_h:APA91bEXwatQS9d6SCdFGhYpDsB5SFFSWQYfCLZqBhlj-DI_MaCC72BZoTo_apMBxXw4lHWuNn6VA_jxrNPOwW_GVDvwBDDpwt_hRLVT4jjqZ3E8YpGeFD0 --> 444444444 --> 444444444444444444444
+---------------------------------------------------------------------
+Requests: deviceToken: fJbnwxF9R5eGuCShborq_h:APA91bEXwatQS9d6SCdFGhYpDsB5SFFSWQYfCLZqBhlj-DI_MaCC72BZoTo_apMBxXw4lHWuNn6VA_jxrNPOwW_GVDvwBDDpwt_hRLVT4jjqZ3E8YpGeFD0   ---->    jsonFilePath: C:\Inetpub\vhosts\sprybit.com\biteloop.sbdev.work\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json   ---->    title: 444444444   ---->    notification_message: 444444444444444444444   ---->    notification_id: 30   ---->    order_id: 0   ---->    
+---------------------------------------------------------------------
+5: fJbnwxF9R5eGuCShborq_h:APA91bEXwatQS9d6SCdFGhYpDsB5SFFSWQYfCLZqBhlj-DI_MaCC72BZoTo_apMBxXw4lHWuNn6VA_jxrNPOwW_GVDvwBDDpwt_hRLVT4jjqZ3E8YpGeFD0 --> 5555555555 --> 555555555555555
+---------------------------------------------------------------------
+Requests: deviceToken: fJbnwxF9R5eGuCShborq_h:APA91bEXwatQS9d6SCdFGhYpDsB5SFFSWQYfCLZqBhlj-DI_MaCC72BZoTo_apMBxXw4lHWuNn6VA_jxrNPOwW_GVDvwBDDpwt_hRLVT4jjqZ3E8YpGeFD0   ---->    jsonFilePath: C:\Inetpub\vhosts\sprybit.com\biteloop.sbdev.work\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json   ---->    title: 5555555555   ---->    notification_message: 555555555555555   ---->    notification_id: 31   ---->    order_id: 0   ---->    
+---------------------------------------------------------------------
+RESPONSE: {
+  "name": "projects/biteloop-b7f33/messages/0:1766588576532240%3065f6a5f9fd7ecd"
+}
+
+---------------------------------------------------------------------
+5: c1zEIRg5T8aZEaB2-o81OG:APA91bFVGea_FYJ1Abpo66P8Nc-_ctJsvsfOHLV9go-L46IDtzGDU3bwTl_bIftGfy9Arb04QojmQYMgeADIa62bHB3ajz52gmHxyL9NamAJHfmtT5-sazU --> Admin Notification Test --> Admin Notification
+---------------------------------------------------------------------
+Requests: deviceToken: c1zEIRg5T8aZEaB2-o81OG:APA91bFVGea_FYJ1Abpo66P8Nc-_ctJsvsfOHLV9go-L46IDtzGDU3bwTl_bIftGfy9Arb04QojmQYMgeADIa62bHB3ajz52gmHxyL9NamAJHfmtT5-sazU   ---->    jsonFilePath: C:\Inetpub\vhosts\sprybit.com\biteloop.sbdev.work\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json   ---->    title: Admin Notification Test   ---->    notification_message: Admin Notification   ---->    notification_id: 32   ---->    order_id: 0   ---->    
+---------------------------------------------------------------------
+RESPONSE: {
+  "name": "projects/biteloop-b7f33/messages/0:1766589051884579%3065f6a5f9fd7ecd"
+}
+
+---------------------------------------------------------------------
+5: c1zEIRg5T8aZEaB2-o81OG:APA91bFVGea_FYJ1Abpo66P8Nc-_ctJsvsfOHLV9go-L46IDtzGDU3bwTl_bIftGfy9Arb04QojmQYMgeADIa62bHB3ajz52gmHxyL9NamAJHfmtT5-sazU --> 11 --> 11
+---------------------------------------------------------------------
+Requests: deviceToken: c1zEIRg5T8aZEaB2-o81OG:APA91bFVGea_FYJ1Abpo66P8Nc-_ctJsvsfOHLV9go-L46IDtzGDU3bwTl_bIftGfy9Arb04QojmQYMgeADIa62bHB3ajz52gmHxyL9NamAJHfmtT5-sazU   ---->    jsonFilePath: C:\Inetpub\vhosts\sprybit.com\biteloop.sbdev.work\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json   ---->    title: 11   ---->    notification_message: 11   ---->    notification_id: 35   ---->    order_id: 0   ---->    
+---------------------------------------------------------------------
+RESPONSE: {
+  "name": "projects/biteloop-b7f33/messages/0:1766589831292859%3065f6a5f9fd7ecd"
+}
+
+---------------------------------------------------------------------
+Requests: deviceToken: 55CC5F8E-6537-495D-B51F-7DA0125DD8C4   ---->    jsonFilePath: C:\Inetpub\vhosts\sprybit.com\biteloop.sbdev.work\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json   ---->    title: New order placed   ---->    notification_message: A new order has been placed by ck1235   ---->    notification_id: 1002   ---->    order_id: 124   ---->    
+---------------------------------------------------------------------
+RESPONSE: {
+  "error": {
+    "code": 400,
+    "message": "The registration token is not a valid FCM registration token",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "INVALID_ARGUMENT"
+      }
+    ]
+  }
+}
+
+---------------------------------------------------------------------
+EXCEPTION: System.IO.FileNotFoundException: Could not find file 'C:\Users\Deep\BiteBack\BiteLoop\Code\BiteLoop\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json'.
+File name: 'C:\Users\Deep\BiteBack\BiteLoop\Code\BiteLoop\biteloop-b7f33-firebase-adminsdk-fbsvc-dd6ff02569.json'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Google.Apis.Auth.OAuth2.CredentialFactory.FromFile[T](String credentialPath)
+   at Google.Apis.Auth.OAuth2.GoogleCredential.FromFile(String path)
+   at SendNotification.<GetAccessTokenAsync>d__0.MoveNext() in c:\Users\Deep\biteback\biteloop\code\BiteLoop\App_Code\SendNotification.cs:line 385
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at SendNotification.<SendPushNotification>d__8.MoveNext() in c:\Users\Deep\biteback\biteloop\code\BiteLoop\App_Code\SendNotification.cs:line 451
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+U-----{"to":"F8579504169DFAD3297EFFE36386EBC8", "data": {"tickerText":"Thank you for your order at Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "Thank you for your order at Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  F8579504169DFAD3297EFFE36386EBC8  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"721D4E87-D879-4C7C-84AD-00250C697F09", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  721D4E87-D879-4C7C-84AD-00250C697F09  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"E6A9DF5D-0C77-4DE7-A7B2-A5CFDEAFE165", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  E6A9DF5D-0C77-4DE7-A7B2-A5CFDEAFE165  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"57559F3D-7D7E-4871-AEC7-2FF125992E8C", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  57559F3D-7D7E-4871-AEC7-2FF125992E8C  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"E19F7A52-B5FA-4371-B392-79E6B3A7C215", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  E19F7A52-B5FA-4371-B392-79E6B3A7C215  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"275CEC79-5C0F-4A1D-B21D-BAE68B5302BA", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  275CEC79-5C0F-4A1D-B21D-BAE68B5302BA  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"52DED6F2-B308-4C56-9A50-DE1EDCA01F14", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  52DED6F2-B308-4C56-9A50-DE1EDCA01F14  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"CDE04756-E1B0-44E7-8CAF-5E20BBA3E514", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  CDE04756-E1B0-44E7-8CAF-5E20BBA3E514  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"05DC0A5C-2BAF-4A17-99F8-23BE030B5F15", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  05DC0A5C-2BAF-4A17-99F8-23BE030B5F15  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"9F59DBFB-7D33-4880-840F-4733A183A700", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  9F59DBFB-7D33-4880-840F-4733A183A700  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"2844AFC5-2794-4D8A-95D8-0129820B1716", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  2844AFC5-2794-4D8A-95D8-0129820B1716  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"1192C17D-891D-43DF-B179-738E759FB030", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  1192C17D-891D-43DF-B179-738E759FB030  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"E4E4D545-A9F8-48D5-80C2-C3CB172602DE", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  E4E4D545-A9F8-48D5-80C2-C3CB172602DE  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"2AE9E4EA-B16C-4374-B98B-D4425CCB3BD5", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  2AE9E4EA-B16C-4374-B98B-D4425CCB3BD5  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"1D3A732E-F14E-4D0F-A660-6BF235B38B75", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  1D3A732E-F14E-4D0F-A660-6BF235B38B75  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"6C45B86A-F35F-4ADE-8361-91D093DFEBF1", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  6C45B86A-F35F-4ADE-8361-91D093DFEBF1  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"5240BDC0-19D4-47B5-A1B3-309B036DA592", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  5240BDC0-19D4-47B5-A1B3-309B036DA592  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"B2C30CB4-4644-4659-80A5-E4BBCAF0EDB1", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  B2C30CB4-4644-4659-80A5-E4BBCAF0EDB1  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"4179EB7B-AF4E-48F5-A150-BD71B075F115", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  4179EB7B-AF4E-48F5-A150-BD71B075F115  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"A6FC83B5-DBA4-4AA7-9B7D-72CA2C28BE82", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  A6FC83B5-DBA4-4AA7-9B7D-72CA2C28BE82  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"2B100476-D776-460F-B848-B359F66322CC", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  2B100476-D776-460F-B848-B359F66322CC  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"FC6AF692-F059-40FB-91BC-6799E5AC33D4", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  FC6AF692-F059-40FB-91BC-6799E5AC33D4  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"B9656B53-46FC-4B47-8EAC-4C10DE3E8A58", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  B9656B53-46FC-4B47-8EAC-4C10DE3E8A58  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"703D891D-5544-4DCA-A432-48EA6723B8CC", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  703D891D-5544-4DCA-A432-48EA6723B8CC  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"B394567D-6211-488D-816D-01BEF67E39CB", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  B394567D-6211-488D-816D-01BEF67E39CB  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"EDB8990C-07C4-4818-82A9-76DE818C1AAE", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  EDB8990C-07C4-4818-82A9-76DE818C1AAE  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"DAF85196-B39F-495B-9B19-3FC5E348B8EB", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  DAF85196-B39F-495B-9B19-3FC5E348B8EB  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"2A69C629-E4ED-4B86-BC0A-55D5C6E78DFB", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  2A69C629-E4ED-4B86-BC0A-55D5C6E78DFB  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"1B4A07CD-0626-47D7-BC51-1FF426FE2C28", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  1B4A07CD-0626-47D7-BC51-1FF426FE2C28  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"F6D3EC3C-8457-4690-8A1E-44FE4AD6991E", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  F6D3EC3C-8457-4690-8A1E-44FE4AD6991E  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"601AE139-DC52-46D6-A364-BAC1F67D2DE1", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  601AE139-DC52-46D6-A364-BAC1F67D2DE1  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"1A682F51-FC18-4F7E-80E8-C4C4961324BA", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  1A682F51-FC18-4F7E-80E8-C4C4961324BA  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"6D91D816-1E7E-4B84-8B7F-BD68D4535DD8", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  6D91D816-1E7E-4B84-8B7F-BD68D4535DD8  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"C0D74E54-8C3A-4C00-B28B-667D175184BB", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  C0D74E54-8C3A-4C00-B28B-667D175184BB  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"FB1C8E52-56F5-44CF-895E-AF0B5FF9B722", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  FB1C8E52-56F5-44CF-895E-AF0B5FF9B722  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"3A1FB0F9-C98C-495D-88B0-B9EA7382AFC0", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  3A1FB0F9-C98C-495D-88B0-B9EA7382AFC0  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"544E317C-9A90-46B7-920A-B92EB5688CB0", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  544E317C-9A90-46B7-920A-B92EB5688CB0  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"BD675300-F304-4D11-839D-9944C7A1184E", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  BD675300-F304-4D11-839D-9944C7A1184E  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"B1085D2B-44B0-41B5-99FB-51BCAF85F1A9", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  B1085D2B-44B0-41B5-99FB-51BCAF85F1A9  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"9C08D208-BB2C-42F1-B0DC-D08084357A4B", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  9C08D208-BB2C-42F1-B0DC-D08084357A4B  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"CE2127D8-C6D8-41DB-B5D0-CB6B4029605C", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  CE2127D8-C6D8-41DB-B5D0-CB6B4029605C  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"A5BAE555-D427-4FCE-892D-F770F97E2362", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  A5BAE555-D427-4FCE-892D-F770F97E2362  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"E161E62D-852D-4618-AEE3-86F484E8B703", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  E161E62D-852D-4618-AEE3-86F484E8B703  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"49B02A73-94A5-4DA2-A3D8-99522332525D", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  49B02A73-94A5-4DA2-A3D8-99522332525D  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"742DC19C-277F-4EAA-8B62-21E723D1EAE3", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  742DC19C-277F-4EAA-8B62-21E723D1EAE3  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"F77A9B4D-99EF-46EC-9DF6-AD02212F0434", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  F77A9B4D-99EF-46EC-9DF6-AD02212F0434  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"CBAC0897-6D0C-4E32-8990-AC5B2206627C", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  CBAC0897-6D0C-4E32-8990-AC5B2206627C  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"B6640C30-2B82-4869-8824-73EB175D8CFE", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  B6640C30-2B82-4869-8824-73EB175D8CFE  ======>  error
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (404) Not Found.
+---------------------------------------------------------------------
+B-----{"to":"55CC5F8E-6537-495D-B51F-7DA0125DD8C4", "notification": {"tickerText":"You received new order from Bring Me Home.", "title":"BMH Notification", "badge":"0", "sound":"default", "body": "You received new order from Bring Me Home."},"data": {"tickerText":"You received new order from Bring Me Home.", "contentTitle":"BMH Notification", "messageID":"125", "NotificationType":"OrderNotification", "message": "You received new order from Bring Me Home."},"priority":"high"}  ======>>>>>>>>    125  ======>  55CC5F8E-6537-495D-B51F-7DA0125DD8C4  ======>  error

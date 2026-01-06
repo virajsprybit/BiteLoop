@@ -1,0 +1,2638 @@
+Email: 48test@gmail.com
+Password: HSo6+AyNF/RVCuDzyKWYFA==
+DeviceKey: 
+DeviceType: I
+
+
+
+Email: Deep7788@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: I
+
+
+
+Email: Deep7788@gmail.com
+Password: BsE66Ton7dQ=
+DeviceKey: 
+DeviceType: I
+
+
+
+Email: Deep7788@gmail.com
+Password: BsE66Ton7dQ=
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Deep7788@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Deep7788@gmail.com
+Password: Deep123
+DeviceKey: wrfsfd
+DeviceType: I
+
+
+
+Email: Deep7788@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Deep7788@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester0011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester20011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: udqEb+I3tpH19B8At4IdEw==
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: 
+Password: 
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: TEST@gmail.com
+Password: TEST123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Vishal1452@gmail.com
+Password: Vishal123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+DeviceKey: 444444444
+Password: Tester123
+DeviceType: I
+
+
+
+Email: TEST@gmail.com
+Password: TEST123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Vishal1452@gmail.com
+Password: Vishal123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: Dev159
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 50877E11-CF23-452B-A11B-C1FA306C5B3F
+
+
+
+Email: Tester30011@gmail.com
+DeviceType: I
+DeviceKey: A29FE16D-1DFD-4A59-9117-D2F4F903816F
+Password: Tester123
+
+
+
+DeviceKey: A29FE16D-1DFD-4A59-9117-D2F4F903816F
+DeviceType: I
+Email: Tester30011@gmail.com
+Password: Tester123
+
+
+
+Password: Tester123
+DeviceKey: A29FE16D-1DFD-4A59-9117-D2F4F903816F
+Email: Tester30011@gmail.com
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Tester123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev1123@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev@gmail.com
+Password: Dev123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dev@gmail.com
+Password: CP5xmTp
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Soham555@gmail.com
+Password: Soham123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Soham555@gmail.com
+Password: Soham123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Soham555@gmail.com
+Password: Soham123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manish756@gmail.com
+Password: Manish123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manish756@gmail.com
+Password: Manish123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manish756@gmail.com
+Password: Manish123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manish756@gmail.com
+Password: Manish123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Deep1478@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Deep1478@gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Soham555@gmail.com
+Password: Soham123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Soham555@gmail.com
+Password: Soham123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: Test123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: Test123
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Tester30011@gmail.com
+Password: Tester123
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Manav123@gmail.com
+Password: Manav123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: prateek@yahoo.com
+Password: czcsvgsgs
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: dfffvgff
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: 12456777
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: xvvdbdvdb
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: bhavik.12@sprybit.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: prateek@yahoo.com
+Password: gdgegegee
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Karan445@gmail.com
+Password: Karan123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: prateek@yahoo.com
+Password: cssgsfsfwfw
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: 343535444
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: fffffgggtt
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Karan445@gmail.com
+Password: Karan123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Jaydeep475@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Jaydeep475@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Jaydeep4757@gmail.com
+Password: Jaydeep123
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Jaydeep475@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: csscas@gmail.com
+Password: fssfsfge
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Jaydeep475@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: plkk@gmail.com
+Password: 899999989
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pratik@sprybit.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pratik@sprybit.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pratik@sprybit.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek@yahoo.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: prateek1@yahoo.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Jaydeep475@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Samay475@gmail.com
+Password: Samay123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Vipul475@gmail.com
+Password: Vipul123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+Email: chirag1@yopmail.com
+DeviceKey: 08F464F7-7F5F-4362-AA1F-AD2ECDD9AA0A
+Password: 123456
+
+
+
+Password: 123456
+Email: chirag1@yopmail.com
+DeviceType: I
+DeviceKey: 2499F3C1-ED7B-4704-878F-C4562D646EF6
+
+
+
+DeviceKey: AB6FF356-60FE-4711-AC38-98F0EF2A4A58
+Password: 123456
+Email: chirag1@yopmail.com
+DeviceType: I
+
+
+
+DeviceType: I
+Email: chirag1@yopmail.com
+DeviceKey: 7AF8500A-E841-4E70-820B-42CD113B0C9E
+Password: 123456
+
+
+
+DeviceType: I
+Password: 123456
+Email: chirag1@yopmail.com
+DeviceKey: B45857D2-D3A3-47E0-82AB-B6B4252248C6
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Jaydeep4757@gmail.com
+Password: Jaydeep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Veer156@gmail.com
+Password: Veer123
+DeviceKey: 
+DeviceType: 
+
+
+
+Password: 123456
+DeviceKey: CEDA9195-3F6A-40DA-92C4-C66539DA7C32
+DeviceType: I
+Email: chirag1@yopmail.com
+
+
+
+DeviceKey: D24D1768-312B-4F01-90DB-D9C06888C984
+DeviceType: I
+Email: chirag1@yopmail.com
+Password: 123456
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Veer156@gmail.com
+Password: Veer123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: Veer156@gmail.com
+Password: Veer123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: pratik@sprybit.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Veer156@gmail.com
+Password: Veer123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Samay475@gmail.com
+Password: Samay123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Tester30011@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+DeviceType: I
+Password: 123456
+Email: chirag1@yopmail.com
+DeviceKey: FD8BD48D-2F98-47F2-85CE-429EF3C5BB2B
+
+
+
+DeviceKey: 11FC16A3-9345-42B9-BE85-BC76E0449E80
+Password: djjdjdjd
+Email: chirag1@yopmail.com
+DeviceType: I
+
+
+
+DeviceKey: 11FC16A3-9345-42B9-BE85-BC76E0449E80
+Password: 123456
+DeviceType: I
+Email: chirag1@yopmail.com
+
+
+
+DeviceKey: 11FC16A3-9345-42B9-BE85-BC76E0449E80
+Password: 123456
+DeviceType: I
+Email: chirag1@yopmail.com
+
+
+
+Email: chirag1@yopmail.com
+DeviceType: I
+Password: 123456
+DeviceKey: DFB19B76-F568-422E-BC45-FFA4C8E9D5D7
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+DeviceKey: DFB19B76-F568-422E-BC45-FFA4C8E9D5D7
+Email: chirag1@yopmail.com
+DeviceType: I
+Password: cDELybP
+
+
+
+Email: Samay475@gmail.com
+Password: Samay123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Samay475@gmail.com
+Password: Samay123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+DeviceKey: 238829D8-4AF7-446B-BA56-87889A4A134F
+Password: cDELybP
+Email: chirag1@yopmail.com
+
+
+
+Password: cDELybP
+DeviceKey: 6090A04A-CB1B-4186-B574-EE90BDEFC2A0
+Email: chirag1@yopmail.com
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceKey: 6090A04A-CB1B-4186-B574-EE90BDEFC2A0
+DeviceType: I
+
+
+
+DeviceKey: 1E92E1DC-2EEF-4D5B-8FD8-8C460A7A26D3
+DeviceType: I
+Password: cDELybP
+Email: chirag1@yopmail.com
+
+
+
+Email: Samay475@gmail.com
+Password: Samay123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall2@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall5@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceType: I
+DeviceKey: 996C3A10-F09B-49FF-BEDF-FD6487477A9C
+
+
+
+Email: Mayur252@gmail.com
+Password: Mayur123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceKey: 933C1D66-2BCD-4870-9CBB-17AD62A8DFD4
+DeviceType: I
+Email: chirag1@yopmail.com
+Password: cDELybP
+
+
+
+Email: Ajeet Patel
+Password: Ajeet123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Ajeet2525@gmail.com
+Password: Ajeet123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceKey: 9D0FDE44-891C-4EB7-BA11-8011DC3B4F8A
+Email: chirag1@yopmail.com
+DeviceType: I
+Password: cDELybP
+
+
+
+DeviceKey: 9D0FDE44-891C-4EB7-BA11-8011DC3B4F8A
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceType: I
+
+
+
+DeviceType: I
+Password: cDELybP
+DeviceKey: 9D0FDE44-891C-4EB7-BA11-8011DC3B4F8A
+Email: chirag1@yopmail.com
+
+
+
+Email: pwall5@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall6@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall6@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pratik31@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Mayur252@gmail.com
+Password: Mayur123
+DeviceKey: 
+DeviceType: 
+
+
+
+Password: 123456
+DeviceKey: 86D3E30D-7ED7-490B-B3EF-07E8B46C36B4
+Email: chirag5@yopmail.com
+DeviceType: I
+
+
+
+Email: pwall5@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceType: I
+DeviceKey: 240ABA57-FD4A-4943-8F0D-8A3038813D15
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 240ABA57-FD4A-4943-8F0D-8A3038813D15
+DeviceType: I
+
+
+
+Email: pwall5@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Om252@gmail.com
+Password: Om123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+DeviceKey: A9D8EE9B-1498-4B1E-AF0D-1EADC9051639
+DeviceType: I
+Email: chirag5@yopmail.com
+Password: 123456
+
+
+
+Email: pwall32@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall5@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Password: 123456
+Email: chirag5@yopmail.com
+DeviceKey: 4EBEFD88-FDE8-4D44-85F5-D00FDC8D7441
+DeviceType: I
+
+
+
+DeviceType: I
+Password: 123456
+Email: chirag5@yopmail.com
+DeviceKey: 39DB2BD8-0B92-4708-81FB-11191B82DC5C
+
+
+
+Email: pwall32@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Password: 123456
+Email: chirag5@yopmail.com
+DeviceKey: A53E1D2A-CE01-406A-8B92-8FA6EFC241AE
+DeviceType: I
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Joy252@gmail.com
+Password: Joy123456
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+Email: chirag2@yopmail.com
+Password: 123456
+DeviceKey: FF9F90F3-D089-4520-9F72-76CA63368E00
+
+
+
+Email: chirag2@yopmail.com
+Password: 123456
+DeviceKey: 9F428036-9E05-4928-81ED-E934233A83E9
+DeviceType: I
+
+
+
+Email: ff252@gmail.com
+Password: Just123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sameer252@gmail.com
+Password: Sameer123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sameer252@gmail.com
+Password: Sameer1234
+DeviceKey: 
+DeviceType: 
+
+
+
+Password: 123456
+Email: chirag2@yopmail.com
+DeviceKey: B33D20B5-6E71-42A2-96C1-FE26AD7F6B0F
+DeviceType: I
+
+
+
+DeviceKey: 765AF7A2-40CA-4BE9-822C-D7984C8FED5D
+Email: chirag2@yopmail.com
+DeviceType: I
+Password: 123456
+
+
+
+Email: Samay475@gmail.com
+Password: DK12
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Samay475@gmail.com
+Password: DK12
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: jems@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: ram4@yopmail.com
+Password: 123456
+DeviceType: I
+DeviceKey: 72CD5073-E0FC-4040-BDF3-4A0C5411FDF1
+
+
+
+Email: pwall4@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall12@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall16@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall132@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: pwall134@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Password: 123456
+DeviceType: I
+DeviceKey: 2D3345E4-D8CB-4B2F-8336-AC3365B25AD3
+Email: chirag5@yopmail.com
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 6C5CFDDB-D55D-404B-AE3A-CC603A3A2DC0
+DeviceType: I
+
+
+
+Email: testdemo@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: deep@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 50A02F2E-6886-4631-8CFB-FDCFB699D291
+
+
+
+Email: deep@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep@sprybit.com
+Password: dip123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: smith101@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith101@gamil.com
+Password: 1234567
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+DeviceKey: F4103230-E744-4882-A4CC-570A1B6EA0BF
+DeviceType: I
+Password: 123456
+
+
+
+DeviceType: I
+Email: chirag5@yopmail.com
+DeviceKey: F4103230-E744-4882-A4CC-570A1B6EA0BF
+Password: 123456
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Password: 123456
+DeviceKey: 037A0525-7AF3-4EEF-8197-DDE7BB109837
+DeviceType: I
+Email: chirag5@yopmail.com
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: chirag1@yopmail.com
+Password: 12345678
+DeviceKey: 555BF4EB-0E6F-4FAD-9CC8-98FD2FD4C98E
+DeviceType: I
+
+
+
+Password: 123456
+DeviceKey: 7EBB9BE0-6D39-4BE6-941F-2BC12587CB55
+DeviceType: I
+Email: chirag1@yopmail.com
+
+
+
+Email: deep@sprybit.com
+Password: dip123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith101@gmail.com
+Password: 1234567
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: smith102@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith102@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: smith102@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: smith104@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Password: 123456
+DeviceType: I
+Email: chirag5@yopmail.com
+DeviceKey: 99511BFE-23F8-44CB-9E33-F05C0079054E
+
+
+
+Email: smith104@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+DeviceKey: 488146B8-F480-47C7-9EBF-0DC5AB53A017
+Password: 123456
+DeviceType: I
+Email: chirag5@yopmail.com
+
+
+
+Email: deep11111@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: smith104@gmail.com
+Password: 123456
+DeviceKey: asfggbbbbb
+DeviceType: A
+
+
+
+Email: Test By Developer1
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep11122@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma11@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: emma12@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: A
+
+
+
+Email: deep22222@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma12@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: deep22222@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep22222@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma101@gmail.com
+Password: 1234567
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma101@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma101@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma101@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: A
+
+
+
+DeviceKey: F1319B9C-3835-4D2E-A91D-1BAE32C37DCC
+Password: 123456
+Email: priyaa@gmail.com
+DeviceType: I
+
+
+
+Email: priyaa@gmail.com
+DeviceType: I
+Password: 1234567
+DeviceKey: F1319B9C-3835-4D2E-A91D-1BAE32C37DCC
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: A
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma21@gmail.com
+Password: 123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep222555@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma55@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 131313
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 131313
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 131313
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 1234567
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 12345678
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 1234567
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 12345678
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma55@gmail.com
+Password: 555555
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceType: I
+DeviceKey: 3AC3DB0F-9CF3-4F7C-8FC5-1043C5B6C8B6
+
+
+
+Email: deep147147@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep147147@sprybit.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceType: I
+DeviceKey: 00BC6118-938C-4F0E-BD27-9B3C2DFC91D0
+Password: 123456
+Email: chirag5@yopmail.com
+
+
+
+Password: 151515
+Email: chirag5@yopmail.com
+DeviceType: I
+DeviceKey: 00BC6118-938C-4F0E-BD27-9B3C2DFC91D0
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceKey: 9B9B8101-A2BA-4F2B-AC5E-CD050B7D5E28
+DeviceType: I
+Password: 123456
+Email: chirag5@yopmail.com
+
+
+
+Email: emma200@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: emma200@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: lee@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: john3@yopmail.com
+DeviceKey: 693D0491-3BD7-4D57-954F-68579AD67DF7
+DeviceType: I
+Password: 123456
+
+
+
+Email: chirag5@yopmail.com
+DeviceType: I
+DeviceKey: 693D0491-3BD7-4D57-954F-68579AD67DF7
+Password: 123456
+
+
+
+Email: Sandy1326@sprybit.com
+Password: Sandy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sandy1326@sprybit.com
+Password: Sandy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sandy1326@sprybit.com
+Password: Sandy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sandy1326@sprybit.com
+Password: Sandy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Sandy1326@sprybit.com
+Password: Sandy123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Rock777@sprybit.com
+Password: Rock123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Rock777@sprybit.com
+Password: Rock123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: KKKK777@sprybit.com
+Password: KKK123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: KKKK777@sprybit.com
+Password: KKKK123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: KKKK777@sprybit.com
+Password: KKKK123
+DeviceKey: 
+DeviceType: 
+
+
+
+DeviceKey: 6382B8E3-4827-4623-83B0-1BFABD60F4DB
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceType: I
+
+
+
+Email: smith200@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+DeviceType: I
+DeviceKey: B760A39D-CF34-44A2-8C44-17474C73184F
+Password: 123456
+Email: john12@yopmail.com
+
+
+
+DeviceKey: B760A39D-CF34-44A2-8C44-17474C73184F
+DeviceType: I
+Email: john25@yopmail.com
+Password: 123456
+
+
+
+DeviceKey: B760A39D-CF34-44A2-8C44-17474C73184F
+Email: chirag5@yopmail.com
+DeviceType: I
+Password: 123456
+
+
+
+DeviceType: I
+Email: chirag5@yopmail.com
+Password: 123456
+DeviceKey: 09FD735A-8C5C-46C8-9857-B2CC38D67A26
+
+
+
+DeviceType: I
+Email: chirag5@yopmail.com
+DeviceKey: 09FD735A-8C5C-46C8-9857-B2CC38D67A26
+Password: 123456
+
+
+
+Password: 111222
+Email: chirag5@yopmail.com
+DeviceKey: 09FD735A-8C5C-46C8-9857-B2CC38D67A26
+DeviceType: I
+
+
+
+DeviceType: I
+Password: 123456
+Email: chirag5@yopmail.com
+DeviceKey: 3E3D64B9-83E9-4B47-BD49-E0EC923A5EED
+
+
+
+DeviceKey: 3E3D64B9-83E9-4B47-BD49-E0EC923A5EED
+Email: chirag5@yopmail.com
+Password: 111222
+DeviceType: I
+
+
+
+Email: snith200@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: snith200@gmail.com
+Password: 1234567
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: smith200@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: Dk123@gmail.com
+Password: DEEP123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Dk123@gmail.com
+Password: DEEP123
+DeviceKey: 
+DeviceType: 
+
+
+
+Password: 123456
+Email: chirag5@yopmail.com
+DeviceKey: 7E83B42E-7484-45FE-85C8-DE03AB2AC9DD
+DeviceType: I
+
+
+
+DeviceType: I
+Password: 111222
+Email: chirag5@yopmail.com
+DeviceKey: 7E83B42E-7484-45FE-85C8-DE03AB2AC9DD
+
+
+
+Email: smith201@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: smith201@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: smith201@gmail.com
+Password: 123456
+DeviceKey: F8579504169DFAD3297EFFE36386EBC8
+DeviceType: A
+
+
+
+Email: Testing8@gmail.com
+Password: DEEP123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: emma55@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+
+
+
+Email: Tester30011@gmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Email: chirag1@yopmail.com
+Password: 123456
+DeviceKey: devive123
+DeviceType: I
+
+
+
+Password: 123456
+DeviceKey: 1FA89661-D436-45F7-AE40-554FDD2BCBD1
+DeviceType: I
+Email: chirag1@yopmail.com
+
+
+
+Email: Testing3@gmail.com
+Password: deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing012@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing012@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing015@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing015@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing116@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing118@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing118@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: Testing133@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: dwall2@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall3@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall3@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall3@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 12345678
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 1234567
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: test@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: test@gmail.com
+Password: 12345678
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: Test@gmail.com
+Password: 12345678
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: Test@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: Testing135@Gmail.com
+Password: Deep123
+DeviceKey: 
+DeviceType: 
+
+
+
+Password: 123456
+DeviceType: I
+Email: johnhk@yopmail.com
+DeviceKey: EB9ECDC5-CE56-4BAF-A0BD-839218457802
+
+
+
+DeviceKey: EB9ECDC5-CE56-4BAF-A0BD-839218457802
+Email: cktest1@yopmail.com
+DeviceType: I
+Password: 123456
+
+
+
+DeviceKey: EB9ECDC5-CE56-4BAF-A0BD-839218457802
+Email: chirag1@yopmail.com
+Password: cDELybP
+DeviceType: I
+
+
+
+Email: johnhk12@yopmail.com
+Password: 123456
+DeviceType: I
+DeviceKey: EB9ECDC5-CE56-4BAF-A0BD-839218457802
+
+
+
+DeviceKey: EB9ECDC5-CE56-4BAF-A0BD-839218457802
+Email: johnk12@yopmail.com
+DeviceType: I
+Password: 123456
+
+
+
+Password: 123456
+DeviceKey: 8D39E7A8-E4E9-4B19-A4A8-2D03719F12FA
+Email: johnhk12@yopmail.com
+DeviceType: I
+
+
+
+DeviceKey: 8D39E7A8-E4E9-4B19-A4A8-2D03719F12FA
+Password: 123456
+Email: johnk12@yopmail.com
+DeviceType: I
+
+
+
+Email: dwall@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall@gmail.com
+Password: 12345678
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall2@gmail.com
+Password: 12345678
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Email: dwall2@gmail.com
+Password: 123456
+DeviceKey: 595EBAB35E46C2101DA9AA83ABF4C731
+DeviceType: A
+
+
+
+Password: 123456
+DeviceKey: C48DDF5B-CF8E-4C29-A8DC-6088FBCBD095
+Email: johnk12@yopmail.com
+DeviceType: I
+
+
+
+Password: 123456
+DeviceType: I
+DeviceKey: CDE81AA6-AC14-4F88-9FA5-3BFD2F9B3105
+Email: johnck@yopmail.com
+
+
+
+Email: Testing177@Gmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep@sprybit.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep80@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep80@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+
+
+
+Email: deep91@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+DeviceToken: fdbdfgb565
+
+
+
+Email: deep91@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+DeviceToken: fdbdfgb565
+
+
+
+Email: mike217@gmail.com
+Password: 123456
+DeviceKey: 6754658A908ED51D173D3CC34293E772
+DeviceType: A
+DeviceToken: 
+
+
+
+Email: deep101@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+DeviceToken: fdbdfgb565
+
+
+
+Email: deep110@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+DeviceToken: fdbdfgb565
+
+
+
+Email: deep112@yopmail.com
+Password: AB
+DeviceKey: 
+DeviceType: 
+DeviceToken: fdbdfgb565
+
+
+

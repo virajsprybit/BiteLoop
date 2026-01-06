@@ -1,0 +1,12 @@
+---------------------------------------------------------------------
+Exception  ==> The remote server returned an error: (400) Bad Request.
+---------------------------------------------------------------------
+123  ======>  dtfGMpaR_lM:APA91bE3zGCUARHsjBG0TNyFhgwYI7VVk2BM4DJLXaKXiMTS8vsIXzuMjX-mxRBx0mePd4mxJ_bQcY0VWdFRN_IWMUFtQICCWMo05z95GMOloS4N2cXV77WIXnKOaViJ9ub3CaXyW5gl  ======>  error
+---------------------------------------------------------------------
+123  ======>  dtfGMpaR_lM:APA91bE3zGCUARHsjBG0TNyFhgwYI7VVk2BM4DJLXaKXiMTS8vsIXzuMjX-mxRBx0mePd4mxJ_bQcY0VWdFRN_IWMUFtQICCWMo05z95GMOloS4N2cXV77WIXnKOaViJ9ub3CaXyW5gl  ======>  
+---------------------------------------------------------------------
+123  ======>  dtfGMpaR_lM:APA91bE3zGCUARHsjBG0TNyFhgwYI7VVk2BM4DJLXaKXiMTS8vsIXzuMjX-mxRBx0mePd4mxJ_bQcY0VWdFRN_IWMUFtQICCWMo05z95GMOloS4N2cXV77WIXnKOaViJ9ub3CaXyW5gl  ======>  
+---------------------------------------------------------------------
+{"to":"dtfGMpaR_lM:APA91bE3zGCUARHsjBG0TNyFhgwYI7VVk2BM4DJLXaKXiMTS8vsIXzuMjX-mxRBx0mePd4mxJ_bQcY0VWdFRN_IWMUFtQICCWMo05z95GMOloS4N2cXV77WIXnKOaViJ9ub3CaXyW5gl", "data": {"tickerText":"Test Notification", "contentTitle":"BringMeHome", "messageID":"123", "NotificationType":"BMHNotification", "message": "Test Notification"},"priority":"high"}
+---------------------------------------------------------------------
+123  ======>  dtfGMpaR_lM:APA91bE3zGCUARHsjBG0TNyFhgwYI7VVk2BM4DJLXaKXiMTS8vsIXzuMjX-mxRBx0mePd4mxJ_bQcY0VWdFRN_IWMUFtQICCWMo05z95GMOloS4N2cXV77WIXnKOaViJ9ub3CaXyW5gl  ======>  

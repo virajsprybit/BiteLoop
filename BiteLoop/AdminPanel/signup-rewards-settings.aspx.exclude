@@ -1,0 +1,117 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminPanel/Admin.master" AutoEventWireup="true" CodeFile="signup-rewards-settings.aspx.cs" Inherits="AdminPanel_Signup_Rewards" EnableEventValidation="false" ValidateRequest="false" %>
+
+<%@ Import Namespace="Utility" %>
+<%@ Register Src="~/AdminPanel/includes/editor.ascx" TagName="uctrlContent" TagPrefix="uctrl" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="CPHHeader" runat="Server">
+    <style>
+        .form-group .form-control {
+            border: 1px solid #dcdcdc !important;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="CPHContent" runat="Server">
+    <div class="row add-padding">
+        <div class="pull-left">
+            <h1 id="PageTitle" runat="server"></h1>
+            <ol class="breadcrumb">
+                <li><a href="dashboard.aspx" class="text-transparent"><i class="icon-home"></i>&nbsp;&nbsp;Home</a></li>
+                <li class="active"><a href="javascript:;" class="text-transparent" id="lnkSubmenu" runat="server">Sign Up Rewards Settings</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- row 2 -->
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="panel">
+                <div class="panel-body well-lg">
+                    <form id="frmTestimonials" action="signup-rewards-settings.aspx?id=<%=ID%>" method="post" target="ifrmForm" enctype="multipart/form-data" onsubmit="return ValidateForm(this);">
+                        <div class="alert-message hide" id="divMsg" runat="server"></div>
+                        <div class="form-group">
+                            <label>Enable</label><span class="red">*</span>
+                            <input type="checkbox" id="chkEnable" name="chkEnable" runat="server" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="<%=txtStartDate.ClientID%>">Start Date</label><span class="red">*</span>
+                            <input id="txtStartDate" runat="server" name="txtStartDate" type="text" autocomplete="off" size="30" class="form-control txtStartDate" data-date-format="dd/M/yyyy" />
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="<%=txtCompletionDate.ClientID%>">End Date</label><span class="red">*</span>
+                            <input id="txtCompletionDate" runat="server" name="txtCompletionDate" type="text" size="30" autocomplete="off" class="form-control txtCompletionDate" data-date-format="dd/M/yyyy" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="<%= txtRewardsPoints.ClientID %>">Rewards Points</label><span class="red">*</span>
+                            <input type="text" class="form-control discount" id="txtRewardsPoints" runat="server" name="txtRewardsPoints" maxlength="100" />
+                        </div>
+
+                        <div class="pull-right">
+                            <button type="submit" class="btn btn-primary" runat="server" id="btnSave" onclick="ValidateForm(this);">Save Information</button>
+                            <button type="button" class="btn btn-default" onclick="window.location='testimonials-list.aspx';">Cancel</button>
+                        </div>
+
+                    </form>
+                    <iframe id="ifrmForm" name="ifrmForm" style="display: none; width: 0px; height: 0px;"></iframe>
+                </div>
+
+            </div>
+            <!-- / panel  -->
+        </div>
+    </div>
+    <!-- / row 2 -->
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="CPHFooter" runat="Server">
+    <link href="js/datepicker1/css/datepicker.css" rel="stylesheet" />
+    <script src="js/datepicker1/js/bootstrap-datepicker.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".txtStartDate").datepicker().on('changeDate', function (e) {
+                $(this).datepicker('hide');
+            });
+            $(".txtCompletionDate").datepicker().on('changeDate', function (e) {
+                $(this).datepicker('hide');
+            });
+        });
+
+        $(".discount").keydown(function (e) {
+            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+                (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+                (e.keyCode >= 35 && e.keyCode <= 40)) {
+                return;
+            }
+
+            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+                e.preventDefault();
+            }
+        });
+
+
+        var divMsg = '<%= divMsg.ClientID %>';
+        function ValidateForm(ctrl) {
+            var ErrMsg = '';
+
+
+            if (jQuery.trim($('#<%=txtRewardsPoints.ClientID %>').val()) == '') {
+                ErrMsg += '<br />- Rewards Points';
+            }
+
+
+            if (ErrMsg.length != 0) {
+                var HeaderText = 'Please correct the following error(s):';
+                DisplMsg(divMsg, HeaderText + ErrMsg, 'alert-message error');
+                ScrollTop();
+                return false;
+            }
+            else {
+                $('#<%=divMsg.ClientID %>').hide();
+                return true;
+            }
+            return true;
+        }
+
+    </script>
+</asp:Content>
+

@@ -1,0 +1,6 @@
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\bin\Release\PAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\bin\Release\PAL.pdb
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\obj\Release\PAL.csproj.AssemblyReference.cache
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\obj\Release\PAL.csproj.CoreCompileInputs.cache
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\obj\Release\PAL.dll
+C:\Users\Deep\BiteBack\BiteLoop\Code\PAL\obj\Release\PAL.pdb

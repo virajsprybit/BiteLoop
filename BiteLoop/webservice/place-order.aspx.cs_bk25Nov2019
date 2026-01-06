@@ -1,0 +1,485 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using BAL;
+using Utility;
+using Newtonsoft.Json;
+using System.Data;
+using Stripe;
+using System.Configuration;
+using System.Web.Script.Serialization;
+using DAL;
+
+public partial class webservice_place_order : System.Web.UI.Page
+{
+    int CurrentCartQty = 0;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Request.Form.Keys.Count > 0)
+        {
+            PlaceOrder();
+        }
+    }
+
+    private void PlaceOrder()
+    {
+        Response objResponse = new Response();
+        bool IsValidated = false;
+        // ================User Last Login Location Track=============================
+        string strSuburb = string.Empty;
+        if (HttpContext.Current.Request["Suburb"] != null)
+        {
+            strSuburb = Convert.ToString(HttpContext.Current.Request["Suburb"]);
+        }
+        // ================User Last Login Location Track=============================
+
+        if (Request["UserID"] != null && Request["SecretKey"] != null && Request["AuthToken"] != null)
+        {
+            if (ValidateRequestBAL.UserValidateClientRequest(Convert.ToInt64(Request["UserID"]), Convert.ToString(Request["SecretKey"]), Convert.ToString(Request["AuthToken"]), strSuburb))
+            {
+                IsValidated = true;
+            }
+        }
+        if (!IsValidated)
+        {
+            CommonAPI objCommonAPI = new CommonAPI();
+            objCommonAPI.Unauthorized();
+        }
+        else
+        {
+            // Stripe Payment Gateway Call
+            string strName = string.Empty;
+            string strEmail = string.Empty;
+            string strCardNumber = string.Empty;
+            string strCustomerCardID = string.Empty;
+            int ExpiryYear = DateTime.Now.Year;
+            int ExpiryMonth = 1;
+            string CVV = "";
+            decimal PayAmount = 0;
+            int RememberMe = 0;
+            var options = new StripeChargeCreateOptions();
+            string strCustomerID = "";
+            int Version = 1;
+            decimal RewardsPoints = 0;
+
+            #region Check Payment Amount is ZERO?
+            if (Request["PayAmount"] != null)
+            {
+                if (Convert.ToString(Request["PayAmount"]) != string.Empty)
+                    PayAmount = Convert.ToDecimal(Request["PayAmount"]);
+            }
+
+            if (PayAmount <= 0)
+            {
+                objResponse.success = "false";
+                objResponse.message = "Total pay amount can not be 0.";
+                HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+                HttpContext.Current.Response.End();
+            }
+            #endregion
+
+            #region Set Request Parameters
+            if (Request["Name"] != null)
+            {
+                if (Convert.ToString(Request["Name"]) != string.Empty)
+                    strName = Convert.ToString(Request["Name"]);
+            }
+            if (Request["Email"] != null)
+            {
+                if (Convert.ToString(Request["Email"]) != string.Empty)
+                    strEmail = Convert.ToString(Request["Email"]);
+            }
+            if (Request["CardNumber"] != null)
+            {
+                if (Convert.ToString(Request["CardNumber"]) != string.Empty)
+                    strCardNumber = Convert.ToString(Request["CardNumber"]);
+            }
+            if (Request["ExpiryYear"] != null)
+            {
+                if (Convert.ToString(Request["ExpiryYear"]) != string.Empty)
+                    ExpiryYear = Convert.ToInt32(Request["ExpiryYear"]);
+            }
+            if (Request["ExpiryMonth"] != null)
+            {
+                if (Convert.ToString(Request["ExpiryMonth"]) != string.Empty)
+                    ExpiryMonth = Convert.ToInt32(Request["ExpiryMonth"]);
+            }
+            if (Request["CVV"] != null)
+            {
+                if (Convert.ToString(Request["CVV"]) != string.Empty)
+                    CVV = Convert.ToString(Request["CVV"]);
+            }
+
+
+            if (Request["RememberMe"] != null)
+            {
+                if (Convert.ToString(Request["RememberMe"]) != string.Empty)
+                    RememberMe = Convert.ToInt32(Request["RememberMe"]);
+            }
+            if (Request["CustomerCardID"] != null)
+            {
+                if (Convert.ToString(Request["CustomerCardID"]) != string.Empty)
+                    strCustomerCardID = Convert.ToString(Request["CustomerCardID"]);
+            }
+
+            if (Request["Version"] != null)
+            {
+                if (Convert.ToString(Request["Version"]) != string.Empty)
+                    Version = Convert.ToInt32(Request["Version"]);
+            }
+            if (Request["RewardsPoints"] != null)
+            {
+                if (Convert.ToString(Request["RewardsPoints"]) != string.Empty)
+                    RewardsPoints = Convert.ToDecimal(Request["RewardsPoints"]);
+            }
+
+            #endregion
+
+            #region Check Current Day Quantity
+
+            long VerifyQtyResult = 0;
+            int RemainingQty = 0;
+            VerifyQtyResult = VerifyCurrentQtyDuringOrder(out RemainingQty, Convert.ToInt64(Request["BusinessID"]), Convert.ToInt64(Request["UserID"]), out CurrentCartQty);
+
+            if (VerifyQtyResult == -1)
+            {
+                UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                objResponse.success = "false";
+                objResponse.message = "Someone has just purchased and remaining quantity is " + RemainingQty + ".";
+                HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+                HttpContext.Current.Response.End();
+            }
+
+            #endregion
+
+            #region Stript Payment & Place Order
+
+            if ((strCardNumber != string.Empty && CVV != string.Empty) || strCustomerCardID != string.Empty)
+            {
+                StripeConfiguration.SetApiKey(ConfigurationManager.AppSettings["StripeSecretKey"].ToString());
+
+
+                if (strCustomerCardID != string.Empty)
+                {
+                    RememberMe = 0;
+
+                    options = new StripeChargeCreateOptions
+                    {
+                        Amount = (int)(PayAmount * 100),
+                        Currency = "aud",
+                        Description = "Bring Me Home Order",
+                        CustomerId = strCustomerCardID,
+                    };
+                }
+                else
+                {
+
+                    var myToken = new StripeTokenCreateOptions();
+                    myToken.Card = new StripeCreditCardOptions()
+                    {
+                        Number = strCardNumber,
+                        ExpirationYear = ExpiryYear,
+                        ExpirationMonth = ExpiryMonth,
+                        AddressCountry = "AU",// optional
+                        AddressLine1 = "",    // optional
+                        AddressLine2 = "",    // optional
+                        AddressCity = "",     // optional
+                        AddressState = "",    // optional
+                        AddressZip = "",      // optional
+                        Name = strName,       // optional
+                        Cvc = CVV // optional
+                    };
+
+                    var tokenService = new StripeTokenService();
+                    var token = "";
+                    try
+                    {
+                        StripeToken stripeToken = tokenService.Create(myToken);
+                        token = stripeToken.Id;
+                    }
+                    catch (Exception ex)
+                    {
+                        UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                        objResponse.success = "false";
+                        objResponse.message = Convert.ToString(ex.Message);
+                        HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+
+                        HttpContext.Current.Response.End();
+                    }
+
+                    // Add New Customer
+
+
+                    if (RememberMe == 1)
+                    {
+
+                        var customerOptions = new StripeCustomerCreateOptions
+                        {
+                            SourceToken = token,
+                            Email = strEmail,
+                        };
+                        var customerService = new StripeCustomerService();
+                        StripeCustomer customer = null;
+                        try
+                        {
+                            customer = customerService.Create(customerOptions);
+                        }
+                        catch (Exception ex)
+                        {
+                            UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                            objResponse.success = "false";
+                            objResponse.message = Convert.ToString(ex.Message);
+                            HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+
+                            HttpContext.Current.Response.End();
+
+                        }
+
+                        // Add New Customer
+                        strCustomerID = customer.Id;
+                        options = new StripeChargeCreateOptions
+                        {
+                            Amount = (int)(PayAmount * 100),
+                            Currency = "aud",
+                            Description = "Bring Me Home Order",
+                            CustomerId = customer.Id,
+                        };
+
+                    }
+                    else
+                    {
+                        options = new StripeChargeCreateOptions
+                        {
+                            Amount = (int)(PayAmount * 100),
+                            Currency = "aud",
+                            Description = "Bring Me Home Order",
+                            SourceTokenOrExistingSourceId = token,
+
+                        };
+                    }
+
+                }
+
+                try
+                {
+                    var service = new StripeChargeService();
+                    StripeCharge charge = service.Create(options);
+                    string strStripeResponse = new JavaScriptSerializer().Serialize(charge);
+
+                    if (charge.Status.ToLower() == "succeeded")
+                    {
+
+                        // Stripe Payment Gateway Call
+
+                        CartBAL objCartBAL = new CartBAL();
+                        objCartBAL.UserID = Convert.ToInt64(Request["UserID"]);
+                        objCartBAL.BusinessID = Convert.ToInt64(Request["BusinessID"]);
+
+                        objCartBAL.TransactionId = Convert.ToString(charge.BalanceTransactionId);
+                        objCartBAL.Currency = Convert.ToString(charge.Currency);
+                        objCartBAL.CustomerId = Convert.ToString(charge.CustomerId);
+                        objCartBAL.CardType = Convert.ToString(charge.Source.Card.Brand);
+                        objCartBAL.CardLastDigits = Convert.ToString(charge.Source.Card.Last4);
+                        objCartBAL.TransactionResponse = Convert.ToString(strStripeResponse);
+
+                        long result = objCartBAL.PlaceOrder(Version, RewardsPoints);
+
+                        if (result > 0 && RememberMe == 1)
+                        {
+                            AddCard(Convert.ToInt64(Request["UserID"]), strCustomerID, charge.Source.Card.Brand, charge.Source.Card.Last4);
+                        }
+
+
+                        switch (result)
+                        {
+                            case -1:
+                                objResponse.success = "false";
+                                objResponse.message = "Please try after sometime.";
+                                break;
+                            case -2:
+                                objResponse.success = "false";
+                                objResponse.message = "This order is already completed.";
+                                break;
+                            default:
+                                objResponse.success = "true";
+                                objResponse.message = "Order has been placed successfully.";
+
+                                SendOrderPickupNotifications(result);
+
+                                // Order Summary Start
+                                objCartBAL = new CartBAL();
+                                objCartBAL.UserID = Convert.ToInt64(Request["UserID"]);
+                                objCartBAL.BusinessID = Convert.ToInt64(Request["BusinessID"]);
+                                DataTable dt = new DataTable();
+
+
+                                dt = objCartBAL.OrderSummary(result);
+
+                                OrderSummary[] objOrderSummary = new OrderSummary[dt.Rows.Count];
+                                for (int i = 0; i < dt.Rows.Count; i++)
+                                {
+                                    objOrderSummary[i] = new OrderSummary();
+                                    objOrderSummary[i].OrderNo = Convert.ToInt64(dt.Rows[i]["OrderID"]);
+                                    objOrderSummary[i].BusinessID = Convert.ToInt64(dt.Rows[i]["BusinessID"]);
+                                    objOrderSummary[i].BusinessName = Convert.ToString(dt.Rows[i]["BusinessName"]);
+                                    objOrderSummary[i].BusinessPhone = Convert.ToString(dt.Rows[i]["BusinessPhone"]);
+                                    objOrderSummary[i].Mobile = Convert.ToString(dt.Rows[i]["Mobile"]);
+                                    objOrderSummary[i].StreetAddress = Convert.ToString(dt.Rows[i]["StreetAddress"]);
+                                    objOrderSummary[i].Location = Convert.ToString(dt.Rows[i]["Location"]);
+                                    objOrderSummary[i].UserID = Convert.ToInt64(dt.Rows[i]["UserID"]);
+                                    objOrderSummary[i].PickupDate = Convert.ToDateTime(dt.Rows[i]["PickupDate"]).ToString("dd/MM/yyyy");
+                                    if (Convert.ToString(dt.Rows[i]["PickupFromTime"]) != string.Empty)
+                                        objOrderSummary[i].PickupFromTime = Convert.ToDateTime(dt.Rows[i]["PickupFromTime"]).ToString("hh:mm tt");
+                                    else
+                                        objOrderSummary[i].PickupFromTime = string.Empty;
+
+
+                                    if (Convert.ToString(dt.Rows[i]["PickupToTime"]) != string.Empty)
+                                        objOrderSummary[i].PickupToTime = Convert.ToDateTime(dt.Rows[i]["PickupToTime"]).ToString("hh:mm tt");
+                                    else
+                                        objOrderSummary[i].PickupToTime = string.Empty;
+
+                                    objOrderSummary[i].Qty = Convert.ToString(dt.Rows[i]["Qty"]);
+                                    objOrderSummary[i].OriginalPrice = Convert.ToDouble(dt.Rows[i]["OriginalPrice"]).ToString("f2");
+                                    objOrderSummary[i].Donation = Convert.ToDouble(dt.Rows[i]["Donation"]).ToString("f2");
+                                    objOrderSummary[i].TransactionFee = Convert.ToDouble(dt.Rows[i]["TransactionFee"]).ToString("f2");
+                                    objOrderSummary[i].BringMeHomeFee = Convert.ToDouble(dt.Rows[i]["BringMeHomeFee"]).ToString("f2");
+                                    objOrderSummary[i].GrandTotal = Convert.ToDouble(dt.Rows[i]["GrandTotal"]).ToString("f2");
+                                    objOrderSummary[i].ItemPrice = Convert.ToDouble(dt.Rows[i]["ItemPrice"]).ToString("f2");
+                                    objOrderSummary[i].RedeemPoints = Convert.ToDouble(dt.Rows[i]["RewardsAmount"]).ToString("f2");
+                                    objOrderSummary[i].Latitude = Convert.ToString(dt.Rows[i]["Latitude"]);
+                                    objOrderSummary[i].Longitude = Convert.ToString(dt.Rows[i]["Longitude"]);
+                                    objResponse.OrderSummary = objOrderSummary;
+                                }
+                                // Order Summary End
+
+                                break;
+                        }
+                        UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                        string strResponseName = JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
+
+                        strResponseName = strResponseName.Replace("\"OrderSummary\"", "\"data\"");
+                        HttpContext.Current.Response.Write(strResponseName);
+                        // HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+                    }
+                    else
+                    {
+                        UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                        objResponse.success = "false";
+                        objResponse.message = Convert.ToString(charge.FailureMessage);
+                        HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+                    }
+                }
+                catch (Exception ex)
+                {
+                    UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                    objResponse.success = "false";
+                    objResponse.message = Convert.ToString(ex.Message.ToString());
+                    HttpContext.Current.Response.Write(JsonConvert.SerializeObject(objResponse, new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore }));
+                }
+                // finally
+                // {
+                // UpdateCurrentQtyDuringOrder(Convert.ToInt64(Request["BusinessID"]), CurrentCartQty);
+                // }
+
+
+            }
+            #endregion
+        }
+        HttpContext.Current.Response.End();
+    }
+
+    private void AddCard(long intUserID, string strCustomerID, string strCardType, string strLastDigits)
+    {
+        CartBAL objCartBAL = new CartBAL();
+        objCartBAL.UserCreditCardAdd(intUserID, strCustomerID, strCardType, strLastDigits);
+
+    }
+
+    private long VerifyCurrentQtyDuringOrder(out int RemainingQty, long BusinessID, long UserID, out int CurrentCartQty)
+    {
+        DbParameter[] dbParam = new DbParameter[] {                 
+                new DbParameter("@BusinessID", DbParameter.DbType.Int, 500, BusinessID), 
+                new DbParameter("@UserID", DbParameter.DbType.Int, 500, UserID),                                
+                new DbParameter("@CurrentCartQuantity", DbParameter.DbType.Int, 200, ParameterDirection.Output),
+                new DbParameter("@RemainingQuantity", DbParameter.DbType.Int, 200, ParameterDirection.Output),
+                new DbParameter("@ReturnVal", DbParameter.DbType.Int, 2, ParameterDirection.Output)
+            };
+        DbConnectionDAL.ExecuteNonQuery(CommandType.StoredProcedure, "VerifyCurrentQtyDuringOrder", dbParam);
+        RemainingQty = Convert.ToInt32(dbParam[dbParam.Length - 2].Value);
+        CurrentCartQty = Convert.ToInt32(dbParam[dbParam.Length - 3].Value);
+        return Convert.ToInt64(dbParam[dbParam.Length - 1].Value);
+    }
+    private void UpdateCurrentQtyDuringOrder(long BusinessID, int Qty)
+    {
+        DbParameter[] dbParam = new DbParameter[] {                 
+                new DbParameter("@BusinessID", DbParameter.DbType.Int, 500, BusinessID), 
+                new DbParameter("@Qty", DbParameter.DbType.Int, 500, Qty)                
+            };
+        DbConnectionDAL.ExecuteNonQuery(CommandType.StoredProcedure, "UpdateCurrentQtyDuringOrder", dbParam);
+    }
+    private void SendOrderPickupNotifications(long OrderID)
+    {
+        DataTable dtUsers = new DataTable();
+        CartBAL objCartBAL = new CartBAL();
+        string strUsers = string.Empty;
+        string strBusiness = string.Empty;
+        dtUsers = objCartBAL.OrderUsersDeviceKey(OrderID);
+        if (dtUsers.Rows.Count > 0)
+        {
+            SendNotification objSendNotification = new SendNotification();
+            string strMessage = string.Empty;
+            for (int i = 0; i < dtUsers.Rows.Count; i++)
+            {
+                if (Convert.ToString(dtUsers.Rows[i]["UserType"]) == "U")
+                {
+                    strMessage = "Thank you for ordering with us!";
+                }
+                else
+                {
+                    strMessage = "You received new order from Bring Me Home.";
+                }
+
+                if (Convert.ToString(dtUsers.Rows[i]["DeviceKey"]) != string.Empty)
+                {
+                    int NotificationCount = 0;
+                    if (Convert.ToString(dtUsers.Rows[i]["NotificationCount"]) == string.Empty)
+                    {
+                        NotificationCount = Convert.ToInt32(dtUsers.Rows[i]["NotificationCount"]);
+                        NotificationCount = NotificationCount + 1;
+                    }
+                    if (Convert.ToString(dtUsers.Rows[i]["UserType"]) == "U")
+                    {
+                        strMessage = "Thank you for your order at Bring Me Home.";
+                        strUsers = strUsers + Convert.ToString(dtUsers.Rows[i]["UserID"]) + ",";
+                    }
+                    else
+                    {
+                        strBusiness = strBusiness + Convert.ToString(dtUsers.Rows[i]["UserID"]) + ",";
+                        strMessage = "You received new order from Bring Me Home.";
+                    }
+
+                    objSendNotification.CallNotification(Convert.ToString(dtUsers.Rows[i]["DeviceKey"]), strMessage, "BMH Notification", Convert.ToString(dtUsers.Rows[i]["OrderID"]), "OrderNotification", Convert.ToString(dtUsers.Rows[i]["DeviceType"]), Convert.ToString(dtUsers.Rows[i]["UserType"]), NotificationCount);
+                }
+            }
+        }
+        if (strUsers.Length > 0)
+        {
+            strUsers = strUsers.Substring(0, strUsers.Length - 1);
+        }
+        if (strBusiness.Length > 0)
+        {
+            strBusiness = strBusiness.Substring(0, strBusiness.Length - 1);
+        }
+
+        if (strBusiness != string.Empty || strUsers != string.Empty)
+        {
+            GeneralBAL objGeneralBAL = new GeneralBAL();
+            objGeneralBAL.UpdateNoticationsCountForUsers(strUsers, strBusiness);
+        }
+    }
+   
+}
